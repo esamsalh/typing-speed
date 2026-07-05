@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أداة اختبار سرعة الكتابة على الكيبورد - قياس دقيق</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>أداة اختبار سرعة الكتابة على الكيبورد ⌨️</h1>
+        <p class="description">اختبر سرعتك ودقتك في الكتابة باللغة العربية الآن. ابدأ الكتابة في الصندوق أدناه لتشغيل العداد تلقائياً.</p>
+        
+        <div class="text-display" id="textDisplay"></div>
+        
+        <textarea id="textInput" placeholder="ابدأ الكتابة هنا لتبدأ الاختبار فوراً..." autofocus></textarea>
+        
+        <div class="results-box">
+            <div class="stat">
+                <span class="value" id="wpm">0</span>
+                <span class="label">كلمة/دقيقة</span>
+            </div>
+            <div class="stat">
+                <span class="value" id="accuracy">100%</span>
+                <span class="label">الدقة</span>
+            </div>
+            <div class="stat">
+                <span class="value" id="timer">60</span>
+                <span class="label">الوقت المتبقي</span>
+            </div>
+        </div>
+        
+        <button id="resetBtn">إعادة الاختبار</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
