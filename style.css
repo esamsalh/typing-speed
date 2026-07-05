@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #0284c7;
+    --bg-color: #f8fafc;
+    --text-color: #1e293b;
+    --correct-color: #22c55e;
+    --incorrect-color: #ef4444;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+.text-display {
+    background: #f1f5f9;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    user-select: none;
+}
+
+.correct { color: var(--correct-color); }
+.incorrect { color: var(--incorrect-color); background-color: #fee2e2; border-radius: 2px; }
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    font-size: 1.1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    resize: none;
+    outline: none;
+    direction: rtl;
+    margin-bottom: 20px;
+    transition: border-color 0.2s;
+}
+
+textarea:focus {
+    border-color: var(--primary-color);
+}
+
+.results-box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat .value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.stat .label {
+    color: #64748b;
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #0369a1;
+}
