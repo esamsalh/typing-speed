@@ -1,0 +1,37 @@
+{
+  "name": "@toolrar/typing-speed-core",
+  "version": "1.0.0",
+  "description": "Lightweight JavaScript utilities for typing speed, WPM, CPM, accuracy, and error analysis.",
+  "main": "npm/index.js",
+  "type": "module",
+  "files": [
+    "npm",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "typing-speed",
+    "wpm",
+    "cpm",
+    "typing-test",
+    "accuracy",
+    "arabic-typing",
+    "toolrar"
+  ],
+  "author": "ToolRar",
+  "license": "MIT",
+  "homepage": "https://www.toolrar.com/General/typing-speed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esamsalh/typing-speed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/esamsalh/typing-speed/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node npm/test.js"
+  }
+}
