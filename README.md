@@ -1,10 +1,17 @@
 
+
+
+````markdown
+
 ## npm Package
 
 Install the reusable typing-speed calculation library:
 
 ```bash
+
 npm install @toolrar/typing-speed-core
+
+
 
 أداة اختبار سرعة الكتابة على الكيبورد ⌨️
 
